@@ -29,8 +29,9 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
 
-    steps: Fase de Teste e Qualidade
-    run: echo "Executar os testes de Qualidade"
+    steps:
+      - name: Fase de Teste e Qualidade
+        run: echo "Executar os testes de Qualidade"
 
   homologacao:
     needs: 
